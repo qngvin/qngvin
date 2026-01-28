@@ -41,8 +41,8 @@ export default function RootLayout({
         className={`${geistSans.variable} ${montserrat.variable} ${geistMono.variable} ${rubik.variable} font-montserrat antialiased bg-black`}
       >
         <PreviewWrapper>
-          <div className="py-10 px-18 h-screen w-full bg-[#100D08] dark:bg-black">
-            <div className="relative flex flex-col justify-between border border-[#ffffff63] h-[calc(100vh-(--spacing(10))-(--spacing(10)))]">
+          <div className="py-4 sm:py-10 px-8 sm:px-18 h-screen w-full bg-[#100D08] dark:bg-black">
+            <div className="relative flex flex-col justify-between border border-[#ffffff63] h-[calc(100vh-(--spacing(4))-(--spacing(4)))] sm:h-[calc(100vh-(--spacing(10))-(--spacing(10)))]">
               <BackgroundMain />
               <Header />
               <div className="relative p-10 h-full">{children}</div>

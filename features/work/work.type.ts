@@ -7,4 +7,5 @@ export interface WorkType {
   position: string
   linkUrl: string
   isProject?: boolean
+  isDoing?: boolean
 }

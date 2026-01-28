@@ -1,11 +1,12 @@
 export const works = [
     {
         id: "1",
-        company: "Company A",
-        startDate: "2020-01-01",
+        company: "GMO-Z.com RUNSYSTEM Da Nang",
+        startDate: "2025-02-10",
         endDate: "2020-12-31",
-        position: "Software Engineer",
-        linkUrl: "https://example.com"
+        position: "Junior Frontend Developer",
+        linkUrl: "https://example.com",
+        isDoing: true
     },
     {
         id: "2",
