@@ -10,10 +10,10 @@ export const works = [
     },
     {
         id: "2",
-        company: "Company B",
-        startDate: "2021-01-01",
-        endDate: "2021-12-31",
-        position: "Senior Software Engineer",
+        company: "FPT Software",
+        startDate: "2023-09-10",
+        endDate: "2023-12-21",
+        position: "Intern Frontend developer",
         linkUrl: "https://example.com"
     },
     {

@@ -9,22 +9,22 @@ export type HeaderItem = {
 export const headerItems: HeaderItem[] = [
   {
     id: 1,
-    label: "home",
+    label: "Home",
     link: VISITOR_ROUTE.VISITOR.HOME,
   },
   {
     id: 2,
-    label: "work",
+    label: "Work",
     link: VISITOR_ROUTE.VISITOR.WORK,
   },
   {
     id: 3,
-    label: "about",
+    label: "About",
     link: VISITOR_ROUTE.VISITOR.ABOUT,
   },
   {
     id: 4,
-    label: "contact",
+    label: "Contact",
     link: VISITOR_ROUTE.VISITOR.CONTACT,
   }
 ];

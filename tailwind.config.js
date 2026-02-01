@@ -11,6 +11,7 @@ module.exports = {
       fontFamily: {
         rubik: ['var(--font-rubik)', 'sans-serif'],
         montserrat: ['var(--font-montserrat)', 'sans-serif'],
+        neuMontreal: ["var(--font-neue-montreal)"],
       },
        colors: {
           grayMax: '#dce7f699',

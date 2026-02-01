@@ -2,7 +2,7 @@ import PageTransition from '@/shared/components/PageTransition'
 
 export const AboutScreen = () => {
   return (
-    <PageTransition className="h-full w-full sm:w-2/3 xl:w-1/3 flex flex-col justify-center tracking-tight font-montserrat">  
+    <PageTransition className="h-full w-full sm:w-2/3 xl:w-1/3 flex flex-col justify-end tracking-tight font-montserrat">  
       <p className='text-white font-semibold text-sm mb-4'>About</p>
       <p className='text-white font-normal text-sm mb-5'>Software engineering @ <span className='italic'>FPT University</span></p>
       <p className='text-white font-normal text-sm mb-5'>
