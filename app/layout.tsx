@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${neueMontreal.variable}  ${rubik.variable} font-rubik antialiased bg-white dark:bg-black`}
+        className={`${neueMontreal.variable}  ${rubik.variable} antialiased bg-white dark:bg-black`}
       >
         <PreviewWrapper>
           <div className="py-4 sm:py-10 px-4 sm:px-16 h-screen w-full bg-white dark:bg-[#100D08]">
