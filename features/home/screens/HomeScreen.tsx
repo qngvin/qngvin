@@ -3,7 +3,7 @@ export const HomeScreen = () => {
 
   return (
     <PageTransition className="h-full flex items-end">
-      <p className="font-semibold tracking-tight text-xs leading-4.5 text-white">
+      <p className="font-semibold tracking-tight text-xs leading-4.5 text-black dark:text-white">
         <span className='block'>Born in 2002</span>
         <span className='block'>in Quang Binh, Vietnam.</span>
         <span className='block'>Developing my ideas</span>
