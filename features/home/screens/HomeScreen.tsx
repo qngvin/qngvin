@@ -14,7 +14,7 @@ export const HomeScreen = () => {
 
   return (
     <PageTransition className="h-full flex items-end">
-      <p className="font-semibold tracking-tight text-md leading-4.5 text-black dark:text-white space-y-[10px]">
+      <p className="font-semibold tracking-tight text-sm leading-4.5 text-black dark:text-white space-y-1.5">
         <span className="block">{t('hero.bornIn')}</span>
         <span className="block">{t('hero.location')}</span>
         <span className="block">{t('hero.line1')}</span>
