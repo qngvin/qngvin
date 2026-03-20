@@ -14,20 +14,20 @@ export const HomeScreen = () => {
 
   return (
     <PageTransition className="h-full flex items-end">
-      <p className="font-semibold tracking-tight text-xs leading-4.5 text-black dark:text-white">
-        <span className='block'>{t('hero.bornIn')}</span>
-        <span className='block'>{t('hero.location')}</span>
-        <span className='block'>{t('hero.line1')}</span>
-        <span className='block'>{t('hero.line2')}</span>
-        <span className='block'>{t('hero.line3')}</span>
-        <span className='block'>{t('hero.line4')}</span>
-        <span className='block'>{t('hero.line5')}</span>
-        <span className='block'>{t('hero.line6')}</span>
-        <span className='block'>{t('hero.line7')}</span>
-        <span className='block'>{t('hero.line8')}</span>
-        <span className='block'>{t('hero.line9')}</span>
-        <span className='block'>{t('hero.line10')}</span>
-        <span className='block'>{t('hero.line11')}</span>
+      <p className="font-semibold tracking-tight text-md leading-4.5 text-black dark:text-white space-y-[10px]">
+        <span className="block">{t('hero.bornIn')}</span>
+        <span className="block">{t('hero.location')}</span>
+        <span className="block">{t('hero.line1')}</span>
+        <span className="block">{t('hero.line2')}</span>
+        <span className="block">{t('hero.line3')}</span>
+        <span className="block">{t('hero.line4')}</span>
+        <span className="block">{t('hero.line5')}</span>
+        <span className="block">{t('hero.line6')}</span>
+        <span className="block">{t('hero.line7')}</span>
+        <span className="block">{t('hero.line8')}</span>
+        <span className="block">{t('hero.line9')}</span>
+        <span className="block">{t('hero.line10')}</span>
+        <span className="block">{t('hero.line11')}</span>
       </p>
     </PageTransition>
   );
