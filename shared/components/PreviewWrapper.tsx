@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import Preview from "@/shared/components/Preview";
 import PageTransition from "./PageTransition";
-import { motion, AnimatePresence } from "framer-motion";
+import { m, LazyMotion, domAnimation, AnimatePresence } from "framer-motion";
 
 export default function PreviewWrapper({ children }: { children: React.ReactNode }) {
   const [showPreview, setShowPreview] = useState(true);
@@ -13,21 +13,23 @@ export default function PreviewWrapper({ children }: { children: React.ReactNode
   }, []);
 
   return (
-    <AnimatePresence  mode="wait">
-      {showPreview ? (
-        <Preview key="preview" />
-      ) : (
-        <motion.div
-          key="main"
-          className="fixed inset-0 z-40 bg-black"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 0.8, ease: "easeInOut" }}
-        >
-          <PageTransition>{children}</PageTransition>
-        </motion.div>
-      )}
-    </AnimatePresence>
+    <LazyMotion features={domAnimation}>
+      <AnimatePresence mode="wait">
+        {showPreview ? (
+          <Preview key="preview" />
+        ) : (
+          <m.div
+            key="main"
+            className="fixed inset-0 z-40 bg-black"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.8, ease: "easeInOut" }}
+          >
+            <PageTransition>{children}</PageTransition>
+          </m.div>
+        )}
+      </AnimatePresence>
+    </LazyMotion>
   );
 }

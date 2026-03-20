@@ -1,0 +1,21 @@
+{
+  "hero": {
+    "bornIn": "Sinh năm 2002",
+    "location": "tại Quảng Bình, Việt Nam.",
+    "line1": "Hiện thực hóa những ý tưởng",
+    "line2": "của tôi.",
+    "line3": "Tôi khám phá thiết kế,",
+    "line4": "xây dựng sản phẩm,",
+    "line5": "và định hình trải nghiệm.",
+    "line6": "Tôi làm việc tại",
+    "line7": "giao điểm của",
+    "line8": "thiết kế và lập trình",
+    "line9": "để tạo ra",
+    "line10": "những trải nghiệm web",
+    "line11": "rõ ràng và hiệu quả."
+  },
+  "meta": {
+    "title": "qngvin — Lập trình viên Frontend",
+    "description": "Portfolio của Trần Quang Vinh — Lập trình viên Frontend xây dựng những trải nghiệm web rõ ràng và hiệu quả."
+  }
+}

@@ -1,8 +1,15 @@
-import React from 'react';
-import { headerItems } from './Header.constants';
+import { useTranslations } from 'next-intl';
 import ActiveLink from '@/shared/components/ActiveLink';
+import { headerItems } from './Header.constants';
 
+/**
+ * Header — Server Component.
+ * Uses useTranslations (works in server components through next-intl's
+ * server-side integration). Nav labels are now translated.
+ */
 export const Header = () => {
+  const t = useTranslations('common');
+
   return (
     <div className="flex flex-col text-black dark:text-white absolute z-50 top-0 right-0 p-10">
       <p className="text-3xl font-extralight">tran quang vinh.</p>
@@ -15,7 +22,7 @@ export const Header = () => {
             activeClassName="text-black dark:text-white after:scale-x-100 leading-7"
             exact
           >
-            {item.label}
+            {t(item.labelKey)}
           </ActiveLink>
         ))}
       </div>

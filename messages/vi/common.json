@@ -1,0 +1,20 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "work": "Dự án",
+    "about": "Giới thiệu",
+    "contact": "Liên hệ"
+  },
+  "footer": {
+    "rights": "Bảo lưu mọi quyền.",
+    "builtWith": "Xây dựng bằng Next.js & TypeScript"
+  },
+  "theme": {
+    "toggle": "Chuyển giao diện"
+  },
+  "language": {
+    "switchTo": "Chuyển ngôn ngữ",
+    "en": "English",
+    "vi": "Tiếng Việt"
+  }
+}

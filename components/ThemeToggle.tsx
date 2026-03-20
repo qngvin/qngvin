@@ -19,7 +19,7 @@ export default function ThemeToggle() {
   }, [theme]);
 
   return (
-    <div className="flex flex-col gap-4 items-center">
+    <>
       {/* Light option */}
       <div
         className="flex flex-col gap-1 items-center cursor-pointer select-none"
@@ -53,6 +53,6 @@ export default function ThemeToggle() {
           DARK
         </span>
       </div>
-    </div>
+    </>
   );
 }

@@ -1,0 +1,21 @@
+{
+  "hero": {
+    "bornIn": "Born in 2002",
+    "location": "in Quang Binh, Vietnam.",
+    "line1": "Developing my ideas",
+    "line2": "into reality.",
+    "line3": "I explore design,",
+    "line4": "build products,",
+    "line5": "and shape experiences.",
+    "line6": "I work at",
+    "line7": "the intersection of",
+    "line8": "design and development",
+    "line9": "to create",
+    "line10": "clear and effective",
+    "line11": "web experiences."
+  },
+  "meta": {
+    "title": "qngvin — Frontend Developer",
+    "description": "Portfolio of Tran Quang Vinh — Frontend Developer building clear and effective web experiences."
+  }
+}

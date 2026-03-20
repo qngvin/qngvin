@@ -1,10 +1,10 @@
 'use client';
 
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
 import { GoDotFill } from 'react-icons/go';
 import { motion, AnimatePresence } from 'framer-motion';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 type ActiveLinkProps = {
   href: string;
@@ -15,6 +15,11 @@ type ActiveLinkProps = {
   sizeDot?: number;
 };
 
+/**
+ * ActiveLink — Client Component.
+ *
+ * Uses standard `usePathname` and `Link` from Next.js.
+ */
 export default function ActiveLink({
   href,
   children,
