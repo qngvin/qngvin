@@ -1,0 +1,9 @@
+{
+  "emailLabel": "Email:",
+  "internetLabel": "Mạng xã hội:",
+  "platforms": {
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "instagram": "Instagram"
+  }
+}

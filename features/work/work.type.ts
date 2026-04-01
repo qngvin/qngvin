@@ -4,9 +4,7 @@ export interface WorkType {
   projectName?: string;
   startDate: string;
   endDate?: string;
-  position: string;
-  linkUrl: string;
+  linkUrl?: string;
   isProject?: boolean;
   isDoing?: boolean;
-  description: string;
 }
