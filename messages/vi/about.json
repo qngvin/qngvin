@@ -1,0 +1,13 @@
+{
+  "title": "Giới thiệu",
+  "education": "Kỹ thuật phần mềm @ ",
+  "university": "Đại học FPT",
+  "description": "Tôi có nền tảng vững về phát triển Frontend Web và đang từng bước mở rộng sang Backend để trở thành Full-stack Web Developer, với định hướng phát triển ở các mảng xử lý logic server-side, thiết kế cơ sở dữ liệu và xây dựng API.",
+  "currentStack": "Stack hiện tại:",
+  "stack": {
+    "frontend": "React, Next.js, Vue.js cho frontend",
+    "backend": "Node.js, NestJS cho backend",
+    "database": "PostgreSQL, MongoDB cho database"
+  },
+  "lastUpdated": "(Cập nhật lần cuối tháng 4/2026)"
+}

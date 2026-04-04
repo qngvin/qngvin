@@ -1,0 +1,13 @@
+{
+  "title": "About",
+  "education": "Software engineering @ ",
+  "university": "FPT University",
+  "description": "My strength lies in Frontend Web Development. Currently, I am focusing on improving my Backend skills to grow into a Full-stack Web Developer, including working with server-side logic, databases, and API systems.",
+  "currentStack": "Current stack:",
+  "stack": {
+    "frontend": "React, Next.js, Vue.js for frontend",
+    "backend": "Node.js, NestJS for backend",
+    "database": "PostgreSQL, MongoDB for database"
+  },
+  "lastUpdated": "(Last updated April 2026)"
+}

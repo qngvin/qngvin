@@ -1,0 +1,18 @@
+{
+  "present": "Hiện tại",
+  "viewProject": "Xem dự án",
+  "items": {
+    "1": {
+      "position": "Junior Frontend Developer",
+      "description": "Hiện đang làm việc tại GMO-Z.com RUNSYSTEM Đà Nẵng với vai trò Lập trình viên Frontend, tôi chịu trách nhiệm phát triển và bảo trì các ứng dụng web sử dụng Vue.js, React và Next.js. Tôi phối hợp với các nhóm đa chức năng để đảm bảo chất lượng sản phẩm và liên tục nâng cao kỹ năng frontend."
+    },
+    "2": {
+      "position": "Intern Frontend Developer",
+      "description": "Trong thời gian thực tập tại FPT Software, tôi có cơ hội tham gia các dự án frontend thực tế, tích lũy kinh nghiệm với React và Next.js. Tôi phối hợp với các lập trình viên senior để phát triển tính năng mới và tối ưu code, giúp tôi xây dựng nền tảng vững chắc về frontend và làm việc nhóm."
+    },
+    "3": {
+      "position": "Software Engineering Student",
+      "description": "Là sinh viên Kỹ thuật phần mềm, tôi đang xây dựng nền tảng lập trình, cấu trúc dữ liệu & giải thuật, và phát triển phần mềm. Qua các môn học và dự án thực tế, tôi đã tích lũy kinh nghiệm với React, React Native, Node.js, Java cùng kiến thức về API và cơ sở dữ liệu."
+    }
+  }
+}
