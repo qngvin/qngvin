@@ -2,7 +2,7 @@ export const works = [
   {
     id: '1',
     company: 'GMO-Z.com RUNSYSTEM Da Nang',
-    startDate: '2025-02-10',
+    startDate: '2025-01-10',
     linkUrl: 'https://runsystem.net/vi',
     isDoing: true,
   },
