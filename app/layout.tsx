@@ -11,6 +11,7 @@ import { neueMontreal, rubik } from './fonts';
 import ClientThemeToggle from '@/components/ClientThemeToggle';
 import ClientBackgroundMain from '@/shared/components/ClientBackgroundMain';
 import ClientLanguageSwitcher from '@/components/ClientLanguageSwitcher';
+import { Analytics } from '@vercel/analytics/next';
 
 /**
  * Generate locale-specific metadata for SEO.
@@ -69,6 +70,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
                 <Footer />
               </div>
             </div>
+            <Analytics /> 
           </PreviewWrapper>
         </NextIntlClientProvider>
       </body>
