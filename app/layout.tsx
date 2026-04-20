@@ -13,6 +13,7 @@ import PageTiltEffectWrapper from '@/components/PageTiltEffectWrapper';
 import ClientThemeToggle from '@/components/ClientThemeToggle';
 import ClientBackgroundMain from '@/shared/components/ClientBackgroundMain';
 import ClientLanguageSwitcher from '@/components/ClientLanguageSwitcher';
+import TopBorderHorse from '@/components/TopBorderHorse';
 import { Analytics } from '@vercel/analytics/next';
 
 /**
@@ -64,6 +65,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
               <div className="py-4 sm:py-10 px-4 sm:px-16 h-screen w-full bg-white dark:bg-[#100D08] overflow-hidden">
                 <PageTiltEffectWrapper>
                   <div className="relative flex flex-col justify-between border border-black dark:border-[#ffffff63] h-[calc(100vh-(--spacing(4))-(--spacing(4)))] sm:h-[calc(100vh-(--spacing(10))-(--spacing(10)))]">
+                    <TopBorderHorse />
                     <div className="absolute bottom-0 -left-7 z-9999 flex flex-col gap-4">
                       <ClientLanguageSwitcher />
                       <ClientThemeToggle />
