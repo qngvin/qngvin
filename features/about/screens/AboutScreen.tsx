@@ -1,10 +1,10 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useAbout } from '../hooks/useAbout';
 import PageTransition from '@/shared/components/PageTransition';
 
 export const AboutScreen = () => {
-  const t = useTranslations('about');
+  const { t } = useAbout();
 
   return (
     <PageTransition className="h-full w-full sm:w-2/3 xl:w-1/3 flex flex-col justify-end tracking-tight font-montserrat">

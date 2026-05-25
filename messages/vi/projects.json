@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "title": "Dự án",
+    "description": "Danh sách dự án"
+  },
+  "backToProjects": "Dự án",
+  "viewLive": "Xem trực tiếp",
+  "github": "GitHub",
+  "techStack": "Công nghệ",
+  "year": "Năm",
+  "status": {
+    "inProgress": "Đang phát triển",
+    "completed": "Hoàn thành",
+    "archived": "Lưu trữ"
+  },
+  "hover": "Di chuột vào dự án"
+}

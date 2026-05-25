@@ -1,27 +1,26 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useContact } from '../hooks/useContact';
 import PageTransition from '@/shared/components/PageTransition';
-import { ContactType } from './contact.contants';
 
 const ContactScreen = () => {
-  const t = useTranslations('contact');
+  const { t, email, linkedin, github, instagram } = useContact();
 
   return (
     <PageTransition className="h-full w-1/3 flex flex-col justify-center tracking-tight font-montserrat">
       <p className="text-black dark:text-white font-bold text-[17px]">
         {t('emailLabel')}{' '}
         <a
-          href={`mailto:${ContactType.Email}`}
+          href={`mailto:${email}`}
           className="underline font-normal text-base tracking-tight hover:text-gray-300"
         >
-          {ContactType.Email}
+          {email}
         </a>
       </p>
       <p className="text-black dark:text-white tracking-[-0.03em] text-[17px] mb-4">
         <span className="font-bold">{t('internetLabel')} </span>
         <a
-          href={ContactType.LinkedIn}
+          href={linkedin}
           className="underline font-normal text-base tracking-tight hover:text-gray-300"
           target="_blank"
           rel="noopener noreferrer"
@@ -30,7 +29,7 @@ const ContactScreen = () => {
         </a>
         {' / '}
         <a
-          href={ContactType.GitHub}
+          href={github}
           className="underline font-normal text-base tracking-tight hover:text-gray-300"
           target="_blank"
           rel="noopener noreferrer"
@@ -39,7 +38,7 @@ const ContactScreen = () => {
         </a>
         {' / '}
         <a
-          href={ContactType.Instagram}
+          href={instagram}
           className="underline font-normal text-base tracking-tight hover:text-gray-300"
           target="_blank"
           rel="noopener noreferrer"
