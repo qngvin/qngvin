@@ -23,7 +23,12 @@ export const WorkDetail: React.FC<WorkType> = ({
         <p className="text-sm text-gray-600 dark:text-gray-400 tracking-tighter font-medium">
           @{' '}
           {linkUrl ? (
-            <a className="text-sm underline" href={linkUrl}>
+            <a
+              className="text-sm underline"
+              href={linkUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {company}
             </a>
           ) : (
@@ -35,7 +40,12 @@ export const WorkDetail: React.FC<WorkType> = ({
         </p>
       ) : (
         <p className="text-sm text-gray-600 dark:text-gray-400 tracking-tighter font-medium">
-          <a className="text-sm underline" href={linkUrl}>
+          <a
+            className="text-sm underline"
+            href={linkUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             {t('viewProject')}
           </a>
           <span className="text-xs"> {' / '} </span>

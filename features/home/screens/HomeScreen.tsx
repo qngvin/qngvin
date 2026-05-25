@@ -28,6 +28,8 @@ export const HomeScreen = () => {
         <span className="block">{t('hero.line9')}</span>
         <span className="block">{t('hero.line10')}</span>
         <span className="block">{t('hero.line11')}</span>
+        <span className="block">{t('hero.line12')}</span>
+        <span className="block">{t('hero.line13')}</span>
       </p>
     </PageTransition>
   );
