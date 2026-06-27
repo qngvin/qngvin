@@ -1,27 +1,11 @@
 'use client';
-import { useRef, useState, useEffect } from 'react';
+
+import { useWork } from '../hooks/useWork';
 import { WorkDetail } from '../components/WorkDetail';
-import { works } from '../work.contants';
 import PageTransition from '@/shared/components/PageTransition';
 
 export const WorkScreen = () => {
-  const scrollRef = useRef<HTMLDivElement>(null);
-  const [showTop, setShowTop] = useState(false);
-  const [showBottom, setShowBottom] = useState(false);
-
-  useEffect(() => {
-    const el = scrollRef.current;
-    if (!el) return;
-
-    const handleScroll = () => {
-      setShowTop(el.scrollTop > 0);
-      setShowBottom(el.scrollTop + el.clientHeight < el.scrollHeight);
-    };
-
-    handleScroll();
-    el.addEventListener('scroll', handleScroll);
-    return () => el.removeEventListener('scroll', handleScroll);
-  }, []);
+  const { scrollRef, showTop, showBottom, works } = useWork();
 
   return (
     <PageTransition className="h-full flex items-center">

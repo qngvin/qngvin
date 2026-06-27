@@ -1,18 +1,20 @@
 {
   "hero": {
     "bornIn": "Sinh năm 2002",
-    "location": "Quảng Bình, Việt Nam.",
-    "line1": "Là Frontend Developer,",
-    "line2": "tập trung xây dựng",
-    "line3": "giao diện web hiện đại,",
-    "line4": "mượt mà và dễ sử dụng.",
-    "line5": "Tôi biến thiết kế",
-    "line6": "thành sản phẩm thực tế,",
-    "line7": "tối ưu trải nghiệm người dùng",
-    "line8": "trên từng chi tiết.",
-    "line9": "Mục tiêu của tôi là",
-    "line10": "tạo ra những website",
-    "line11": "nhanh, rõ ràng và hiệu quả."
+    "location": "tại Quảng Bình, Việt Nam.",
+    "line1": "Được thúc đẩy bởi niềm đam mê",
+    "line2": "biến các ý tưởng sáng tạo",
+    "line3": "thành sản phẩm kỹ thuật số chất lượng cao.",
+    "line4": "Mình tập trung vào hệ thống thiết kế,",
+    "line5": "giao diện tối giản,",
+    "line6": "và trải nghiệm người dùng mượt mà.",
+    "line7": "Định vị bản thân",
+    "line8": "tại điểm giao thoa giữa",
+    "line9": "thiết kế và lập trình,",
+    "line10": "mình cân bằng giữa thẩm mỹ và logic",
+    "line11": "để xây dựng những",
+    "line12": "trải nghiệm web hiện đại, hiệu năng cao",
+    "line13": "và được tối ưu tốt."
   },
   "meta": {
     "title": "qngvin",

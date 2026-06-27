@@ -4,5 +4,7 @@ export const VISITOR_ROUTE = {
     WORK: "/work",
     ABOUT: "/about",
     CONTACT: "/contact",
+    PROJECTS: "/projects",
+    PROJECT_DETAIL: (id: string) => `/projects/${id}`,
   },
 };

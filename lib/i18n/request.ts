@@ -20,13 +20,14 @@ export default getRequestConfig(async () => {
   }
 
   // Merge all namespace JSONs for the active locale
-  const [common, home, auth, contact, about, work] = await Promise.all([
+  const [common, home, auth, contact, about, work, projects] = await Promise.all([
     import(`@/messages/${locale}/common.json`),
     import(`@/messages/${locale}/home.json`),
     import(`@/messages/${locale}/auth.json`),
     import(`@/messages/${locale}/contact.json`),
     import(`@/messages/${locale}/about.json`),
     import(`@/messages/${locale}/work.json`),
+    import(`@/messages/${locale}/projects.json`),
   ]);
 
   return {
@@ -38,6 +39,7 @@ export default getRequestConfig(async () => {
       contact: contact.default,
       about: about.default,
       work: work.default,
+      projects: projects.default,
     },
     // Silently use the key as fallback when a translation is missing
     onError(error) {

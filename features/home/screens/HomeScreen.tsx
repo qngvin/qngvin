@@ -1,16 +1,16 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useHome } from '../hooks/useHome';
 import PageTransition from '@/shared/components/PageTransition';
 
 /**
  * HomeScreen — Client Component (requires 'use client' for animations/hooks).
  *
- * Uses useTranslations('home') hook — messages are already available
+ * Uses useHome() hook — messages are already available
  * via NextIntlClientProvider in the locale layout. No extra fetch needed.
  */
 export const HomeScreen = () => {
-  const t = useTranslations('home');
+  const { t } = useHome();
 
   return (
     <PageTransition className="h-full flex items-end">
@@ -28,6 +28,8 @@ export const HomeScreen = () => {
         <span className="block">{t('hero.line9')}</span>
         <span className="block">{t('hero.line10')}</span>
         <span className="block">{t('hero.line11')}</span>
+        <span className="block">{t('hero.line12')}</span>
+        <span className="block">{t('hero.line13')}</span>
       </p>
     </PageTransition>
   );

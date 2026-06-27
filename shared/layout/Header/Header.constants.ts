@@ -18,6 +18,11 @@ export const headerItems: HeaderItem[] = [
     link: VISITOR_ROUTE.VISITOR.WORK,
   },
   {
+    id: 5,
+    labelKey: 'nav.projects',
+    link: VISITOR_ROUTE.VISITOR.PROJECTS,
+  },
+  {
     id: 3,
     labelKey: 'nav.about',
     link: VISITOR_ROUTE.VISITOR.ABOUT,

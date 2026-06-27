@@ -1,0 +1,29 @@
+{
+  "repoPath": "/home/gmo/rs-vinhtq1/qngvin",
+  "lastCommit": "c1701aee070428051587e5ab8ff5c16d79a365c3",
+  "indexedAt": "2026-05-25T09:48:57.466Z",
+  "remoteUrl": "git@github.com:qngvin/qngvin",
+  "stats": {
+    "files": 72,
+    "nodes": 349,
+    "edges": 453,
+    "communities": 10,
+    "processes": 12,
+    "embeddings": 184
+  },
+  "capabilities": {
+    "graph": {
+      "provider": "ladybugdb",
+      "status": "available"
+    },
+    "fts": {
+      "provider": "ladybugdb-fts",
+      "status": "available"
+    },
+    "vectorSearch": {
+      "provider": "ladybugdb-vector",
+      "status": "vector-index",
+      "exactScanLimit": 10000
+    }
+  }
+}
